@@ -26,7 +26,7 @@
     <restConfiguration component="servlet"
                        bindingMode="auto"/>
 
-     http://localhost:8080/rest-war/greetings/Bob 
+  <!--    http://localhost:8080/rest-war/greetings/Bob  -->
     <rest path="/greetings/{name}">
       <get produces="text/plain">
         <route>
